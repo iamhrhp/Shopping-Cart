@@ -1,4 +1,3 @@
-import CartPage from '../CartPage/CartPage';
 import HomePage from './HomePage';
 
 const MasterPage = () => {
