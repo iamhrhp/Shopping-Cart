@@ -1,14 +1,11 @@
 import { Box, Button, CardMedia, Typography } from '@mui/material';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import CartPage from '../CartPage/CartPage';
 
 const HomePage = () => {
   const [products, setProducts] = useState<any[]>([]);
   const [cart, setCart] = useState<any[]>([]);
-
-  const navigate = useNavigate();
 
   const handleProduct = async () => {
     try {

@@ -1,5 +1,3 @@
-import CartPage from '../CartPage/CartPage';
-import HomePage from '../HomePage/HomePage';
 import { Route, Routes } from 'react-router-dom';
 import MasterPage from '../HomePage/MasterPage';
 

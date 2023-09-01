@@ -1,14 +1,11 @@
 import { Box, Typography } from '@mui/material';
 import Drawer from '@mui/material/Drawer';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import Button from '@mui/material/Button';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
-import { useState, Fragment } from 'react';
+import { useState } from 'react';
 
 interface IProps {
   totalPrice: any;
