@@ -5,7 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Button from '@mui/material/Button';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
-import { useState, Fragment } from 'react';
+import { useState } from 'react';
 
 interface IProps {
   totalPrice: any;
